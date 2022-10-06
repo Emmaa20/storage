@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+i{
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+}
+
+i span{
+    position: absolute;
+    background-color: #fff;
+    color: rgb(90, 67, 193);
+    padding: 3px 5px;
+    border-radius: 100%;
+    top: -10px;
+    right: -14px;
+    font-size: 11px;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(177, 172, 172);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#Products img{
+    height: 300px;
+    object-fit: cover;
+}
+
+table img{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#toaster{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    transition: .5s;
+}
+
+#toaster2{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    transition: .5s;
+}
+img{
+    height: 300px;
+    object-fit: cover;
+}
